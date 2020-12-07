@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-
+import datetime
 import os
 import sys
 
@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     'reversion',
     # app
-    'home'
+    'home',
+    'login',
 ]
 
 MIDDLEWARE = [
@@ -84,7 +85,7 @@ WSGI_APPLICATION = 'ater_end.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "baizhiedu",
+        'NAME': "edu",
         'HOST': '127.0.0.1',
         'POST': 3306,
         'USER': 'root',
@@ -113,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-cn'
 
 TIME_ZONE = 'UTC'
 
@@ -133,7 +134,11 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 REST_FRAMEWORK = {
-    'EXCEPTION_HANDLER': 'errors.units.custom_exception_handler',  # 自定义异常函数的位置
+    'EXCEPTION_HANDLER': 'ater_end.utils.exceptions.custom_exception_handler',  # 自定义异常函数的位置
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
 }
 
 # 日志配置
@@ -189,3 +194,21 @@ LOGGING = {
 }
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+AUTH_USER_MODEL = "login.UserModel"
+
+# JWT相关设置
+JWT_AUTH = {
+
+    # 设置token的有效期
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300),
+
+    # 设置jwt的返回数据类型
+    'JWT_RESPONSE_PAYLOAD_HANDLER':
+        'login.service.jwt_response_payload_handler',
+}
+
+# 自定义多方式登陆
+AUTHENTICATION_BACKENDS = [
+    'login.service.UserAuthentication',
+]

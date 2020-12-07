@@ -852,3 +852,2077 @@ INFO 2020-12-03 21:46:35,038 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
 INFO 2020-12-03 21:46:43,264 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 213
 INFO 2020-12-03 21:46:43,288 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
 INFO 2020-12-03 21:46:43,315 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 227
+INFO 2020-12-04 08:46:42,681 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 213
+INFO 2020-12-04 08:46:42,682 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 227
+INFO 2020-12-04 08:46:42,682 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 08:46:42,811 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 08:46:42,815 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 08:46:42,822 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 08:48:55,352 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 08:48:56,109 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 213
+INFO 2020-12-04 08:48:56,119 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 08:48:56,126 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 227
+INFO 2020-12-04 08:49:06,540 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 08:49:06,541 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 213
+INFO 2020-12-04 08:49:06,555 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 227
+INFO 2020-12-04 08:49:20,837 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 213
+INFO 2020-12-04 08:49:20,839 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 08:49:20,845 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 227
+WARNING 2020-12-04 08:55:41,989 base 93 Not Found: /
+WARNING 2020-12-04 08:55:41,991 basehttp 124 "GET / HTTP/1.1" 404 2152
+WARNING 2020-12-04 08:55:42,256 base 93 Not Found: /favicon.ico
+WARNING 2020-12-04 08:55:42,259 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2203
+INFO 2020-12-04 08:56:00,076 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 6139
+INFO 2020-12-04 08:56:00,106 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,125 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,128 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,140 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,146 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,147 basehttp 124 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,151 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,154 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,155 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,156 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2020-12-04 08:56:00,163 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2020-12-04 08:56:09,073 base 93 Not Found: /api/nav/
+WARNING 2020-12-04 08:56:09,074 basehttp 124 "GET /api/nav/ HTTP/1.1" 404 2559
+INFO 2020-12-04 08:56:18,241 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 5926
+INFO 2020-12-04 08:57:08,781 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 6068
+INFO 2020-12-04 09:01:00,928 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:01:04,689 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+ERROR 2020-12-04 09:01:04,701 exception 118 Internal Server Error: /api/banner/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 1047, in get_fields
+    source, info, model, depth
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 1192, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\serializers.py", line 1309, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `is_site` is not valid for model `Banner`.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'errors.units.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'errors'.
+INFO 2020-12-04 09:01:04,705 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+ERROR 2020-12-04 09:01:04,838 basehttp 124 "GET /api/banner/ HTTP/1.1" 500 184424
+INFO 2020-12-04 09:04:02,023 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:04:02,036 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:04:02,066 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:05:18,683 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:05:53,608 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:05:53,647 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:05:53,673 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:08:20,422 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:08:26,910 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:08:28,318 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:08:28,382 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:08:28,395 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:09:06,424 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:09:07,636 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:09:07,705 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:09:07,728 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:13:07,364 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:14:48,941 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:15:12,237 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:15:12,292 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:15:12,317 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:15:25,891 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:15:25,911 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:15:25,931 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:15:44,662 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:15:44,684 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:15:44,701 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:16:06,436 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:16:06,482 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:16:06,517 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:16:19,353 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:16:19,414 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:16:19,435 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:16:34,184 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:16:34,227 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:16:34,253 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:16:42,276 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:16:42,390 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:16:42,487 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:17:56,079 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:17:56,809 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:17:56,825 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:17:56,835 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:19:20,648 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:19:21,982 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:19:22,032 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:19:22,048 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:19:41,654 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:19:41,717 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:19:41,718 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:20:05,508 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:20:05,561 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:20:05,573 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:21:28,394 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:21:28,426 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:21:28,437 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:31:54,561 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:33:41,889 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:33:41,900 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:33:41,901 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:33:57,475 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:34:37,788 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:34:37,789 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:34:37,790 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:35:07,515 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:35:07,529 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:35:07,557 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:35:08,586 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:35:08,594 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:35:08,616 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:35:22,516 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:35:22,531 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:35:22,556 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:35:36,404 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:35:36,406 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:35:36,409 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:35:47,009 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:35:47,016 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:35:47,024 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:35:54,889 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:35:54,900 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:35:54,906 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:36:00,338 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:36:00,373 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:36:00,386 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:36:06,716 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:36:06,724 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:36:06,731 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:36:13,219 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:36:13,224 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:36:13,238 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:36:21,543 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:36:21,552 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:36:21,560 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:38:09,268 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:38:09,282 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:38:09,296 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:38:32,709 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:38:32,722 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:38:32,729 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:39:27,988 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:39:27,999 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:39:28,006 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 09:40:01,219 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 09:40:01,224 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 09:40:01,225 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+WARNING 2020-12-04 13:22:58,145 base 93 Not Found: /api/login/
+WARNING 2020-12-04 13:22:58,147 basehttp 124 "GET /api/login/ HTTP/1.1" 404 2565
+WARNING 2020-12-04 13:26:08,570 base 93 Not Found: /api/login/
+WARNING 2020-12-04 13:26:08,576 basehttp 124 "GET /api/login/?username=guoxiaolin&password=123456 HTTP/1.1" 404 2605
+ERROR 2020-12-04 13:27:01,896 exception 118 Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'errors.units.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'errors'.
+ERROR 2020-12-04 13:27:01,977 basehttp 124 "GET /api/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 130665
+ERROR 2020-12-04 13:27:49,702 exception 118 Internal Server Error: /apiv2/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'errors.units.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'errors'.
+ERROR 2020-12-04 13:27:49,783 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 130689
+ERROR 2020-12-04 13:35:50,523 exception 118 Internal Server Error: /apiv2/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'units'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'units.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'units'.
+ERROR 2020-12-04 13:35:50,608 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 123769
+ERROR 2020-12-04 13:36:26,320 exception 118 Internal Server Error: /apiv2/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'ater_end.units'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'ater_end.units.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'ater_end.units'.
+ERROR 2020-12-04 13:36:26,406 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 124352
+ERROR 2020-12-04 13:37:24,993 exception 118 Internal Server Error: /apiv2/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'units'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'units.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'units'.
+ERROR 2020-12-04 13:37:25,064 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 130744
+ERROR 2020-12-04 13:38:27,337 exception 118 Internal Server Error: /apiv2/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'unils'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'unils.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'unils'.
+ERROR 2020-12-04 13:38:27,425 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 130744
+ERROR 2020-12-04 13:38:32,332 exception 118 Internal Server Error: /apiv2/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'utils'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'utils.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'utils'.
+ERROR 2020-12-04 13:38:32,404 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 130744
+ERROR 2020-12-04 13:38:54,153 exception 118 Internal Server Error: /apiv2/login/
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 167, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: Method "GET" not allowed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "c:\users\¹ùÏþÁÖ\appdata\local\programs\python\python36\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'utils'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 500, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 454, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 166, in perform_import
+    return import_from_string(val, setting_name)
+  File "E:\djangoenv\TestDemo\lib\site-packages\rest_framework\settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'utils.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ModuleNotFoundError: No module named 'utils'.
+ERROR 2020-12-04 13:38:54,221 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 500 130744
+WARNING 2020-12-04 13:38:58,662 basehttp 124 "GET /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 405 40
+WARNING 2020-12-04 13:39:38,392 basehttp 124 "POST /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 400 79
+WARNING 2020-12-04 13:40:22,449 basehttp 124 "POST /apiv2/login/?username=guoxiaolin&password=123456 HTTP/1.1" 400 68
+WARNING 2020-12-04 13:40:42,372 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 68
+WARNING 2020-12-04 13:40:59,527 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 68
+WARNING 2020-12-04 13:42:25,984 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 13:42:58,085 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 81
+WARNING 2020-12-04 13:43:11,927 basehttp 124 "GET /apiv2/login/ HTTP/1.1" 405 45
+WARNING 2020-12-04 13:43:16,847 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 13:59:26,355 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 14:01:16,730 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 14:55:53,237 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 14:56:36,102 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 14:57:37,749 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 15:09:38,684 basehttp 124 "GET /apiv2/login/ HTTP/1.1" 405 7694
+WARNING 2020-12-04 15:09:42,559 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 7749
+INFO 2020-12-04 15:09:56,922 basehttp 124 "GET /admin/ HTTP/1.1" 200 4365
+INFO 2020-12-04 15:09:56,990 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,003 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,004 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,014 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,026 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,029 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,032 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,040 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,042 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,065 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,072 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,094 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,096 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,108 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,108 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,116 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:57,139 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:09:57,421 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-12-04 15:09:59,577 basehttp 124 "POST /admin/ HTTP/1.1" 200 4594
+INFO 2020-12-04 15:09:59,623 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:10:04,580 basehttp 124 "POST /admin/ HTTP/1.1" 302 0
+WARNING 2020-12-04 15:10:05,806 csrf 153 Forbidden (CSRF token missing or incorrect.): /admin/
+WARNING 2020-12-04 15:10:05,815 basehttp 124 "POST /admin/ HTTP/1.1" 403 2513
+INFO 2020-12-04 15:10:06,700 basehttp 124 "GET /admin/ HTTP/1.1" 200 15534
+ERROR 2020-12-04 15:10:06,704 basehttp 124 "GET /admin/ HTTP/1.1" 500 59
+WARNING 2020-12-04 15:10:27,006 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 15:30:40,356 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 15:33:28,514 basehttp 124 "GET /admin/ HTTP/1.1" 200 15534
+INFO 2020-12-04 15:33:28,604 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-04 15:33:28,626 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:28,630 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:28,636 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:32,654 basehttp 124 "GET /admin/login/usermodel/ HTTP/1.1" 200 38046
+INFO 2020-12-04 15:33:32,707 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:32,731 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:32,741 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:32,742 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-04 15:33:32,744 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:32,752 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:32,753 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:32,763 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-04 15:33:40,273 basehttp 124 "POST /admin/login/usermodel/ HTTP/1.1" 200 16097
+INFO 2020-12-04 15:33:40,320 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-04 15:33:41,284 basehttp 124 "POST /admin/login/usermodel/ HTTP/1.1" 302 0
+INFO 2020-12-04 15:33:41,314 basehttp 124 "GET /admin/login/usermodel/ HTTP/1.1" 200 4381
+INFO 2020-12-04 15:33:41,373 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:33:43,349 basehttp 124 "POST /admin/login/usermodel/ HTTP/1.1" 200 4610
+INFO 2020-12-04 15:33:43,398 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:33:48,498 basehttp 124 "POST /admin/login/usermodel/ HTTP/1.1" 200 4610
+INFO 2020-12-04 15:33:48,549 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:34:24,260 basehttp 124 "POST /admin/login/usermodel/ HTTP/1.1" 200 4610
+INFO 2020-12-04 15:34:24,308 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:34:31,189 basehttp 124 "GET /admin/ HTTP/1.1" 200 4365
+INFO 2020-12-04 15:34:31,293 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:34:31,546 basehttp 124 "GET /admin/ HTTP/1.1" 200 4365
+INFO 2020-12-04 15:34:31,631 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-04 15:35:52,496 basehttp 124 "POST /admin/ HTTP/1.1" 302 0
+INFO 2020-12-04 15:35:52,562 basehttp 124 "GET /admin/ HTTP/1.1" 200 15763
+INFO 2020-12-04 15:35:52,611 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-04 15:35:57,600 basehttp 124 "GET /admin/login/usermodel/ HTTP/1.1" 200 35455
+INFO 2020-12-04 15:35:57,670 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-04 15:36:12,555 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 191
+INFO 2020-12-04 15:58:39,389 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 16:03:39,438 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 16:03:39,441 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 16:03:39,452 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 16:03:39,466 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 16:03:39,468 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 16:03:39,470 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 16:03:41,212 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 16:03:41,231 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 16:03:41,234 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 16:05:50,523 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 16:05:50,528 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 16:05:50,542 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+WARNING 2020-12-04 16:42:49,196 basehttp 124 "GET /apiv2/login/ HTTP/1.1" 405 7694
+INFO 2020-12-04 16:42:56,506 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 7875
+INFO 2020-12-04 16:45:40,491 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 16:45:40,605 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+WARNING 2020-12-04 16:46:14,677 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:46:36,334 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:46:47,517 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:47:43,612 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:50:22,687 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:50:37,468 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:53:13,261 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 16:55:28,971 basehttp 124 "GET /admin/login/usermodel/add/ HTTP/1.1" 200 18693
+INFO 2020-12-04 16:55:29,029 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+WARNING 2020-12-04 16:55:59,173 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:56:13,823 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 16:56:21,495 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+WARNING 2020-12-04 16:56:44,784 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:56:45,959 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:56:48,991 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 16:57:20,455 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 16:58:06,169 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 16:58:23,089 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 16:59:06,071 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 16:59:16,792 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 16:59:54,968 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 17:00:04,901 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 17:00:30,292 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 17:02:11,587 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 17:02:20,380 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 17:02:35,943 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 17:03:04,520 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 17:03:26,110 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+WARNING 2020-12-04 17:03:51,722 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 41
+WARNING 2020-12-04 17:03:53,629 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 41
+INFO 2020-12-04 17:04:13,933 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 7795
+INFO 2020-12-04 17:04:16,189 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 7795
+INFO 2020-12-04 17:04:18,709 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 7795
+INFO 2020-12-04 17:04:49,670 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+WARNING 2020-12-04 17:06:13,446 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 17:06:29,132 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+WARNING 2020-12-04 17:20:16,478 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 17:21:09,567 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 17:21:09,654 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 17:21:09,687 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 17:21:09,692 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+WARNING 2020-12-04 17:39:15,531 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 81
+INFO 2020-12-04 18:48:44,516 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+WARNING 2020-12-04 18:48:44,528 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 81
+INFO 2020-12-04 19:03:03,626 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:03:03,626 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:03:03,628 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:03:03,804 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 19:03:03,814 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 19:03:03,814 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 19:25:30,128 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:25:30,204 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:25:30,211 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:25:30,222 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+WARNING 2020-12-04 19:26:22,265 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 19:27:18,676 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:27:18,756 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:27:18,761 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:27:18,761 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:28:34,460 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:28:34,546 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:28:34,547 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:28:34,550 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:29:28,984 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:29:29,058 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:29:29,069 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:29:29,073 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:30:23,591 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:30:23,674 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:30:23,676 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:30:23,686 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:31:05,148 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:31:05,155 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:31:05,221 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:31:05,253 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:31:05,261 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:31:38,110 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:31:38,181 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:31:38,203 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:31:38,208 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:33:23,387 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:33:23,487 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:33:23,497 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:33:23,507 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:34:24,439 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:34:24,475 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:34:24,503 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:34:36,731 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:34:36,835 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:34:36,849 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:34:36,852 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:35:37,489 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:35:37,630 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:35:37,663 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:35:37,694 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:35:55,498 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:35:55,577 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:35:55,584 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:35:55,588 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:36:28,630 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:36:28,752 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:36:28,761 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:36:28,763 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+WARNING 2020-12-04 19:37:07,989 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 19:37:13,056 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:37:13,221 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:37:13,222 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:37:13,226 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:38:35,525 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:38:35,643 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:38:35,644 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:38:35,655 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:38:43,719 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:38:43,820 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:38:43,820 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:38:43,838 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:39:59,959 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:40:00,037 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:40:00,049 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:40:00,060 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:40:55,582 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:40:55,717 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:40:55,724 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:40:55,731 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:41:19,280 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:41:19,368 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:41:19,380 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:41:19,385 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:42:40,746 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:42:40,853 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:42:40,869 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:42:40,870 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+WARNING 2020-12-04 19:43:06,341 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 41
+WARNING 2020-12-04 19:43:07,678 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 41
+INFO 2020-12-04 19:43:12,197 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:46:04,643 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:52:19,025 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 139
+INFO 2020-12-04 19:52:56,128 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+WARNING 2020-12-04 19:53:10,806 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 19:53:19,637 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 19:53:19,734 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:53:19,774 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:53:19,778 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:55:25,470 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:55:25,515 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:55:25,573 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:55:38,311 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:55:38,336 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:55:38,345 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:57:35,559 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:57:36,551 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:57:36,556 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:57:36,567 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:57:37,962 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:57:37,984 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:57:38,012 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:57:47,860 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:57:47,879 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:57:47,902 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:57:49,461 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:57:49,473 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 19:57:49,478 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:58:35,779 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:58:36,477 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 19:58:36,490 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 19:58:36,491 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:26:59,925 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:27:00,014 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:27:00,018 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:27:00,039 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:28:51,521 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:28:51,576 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:28:51,588 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:28:51,595 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:32:40,814 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:32:52,499 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:32:52,569 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:32:52,574 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:32:52,580 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:33:30,404 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:33:50,728 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:33:50,769 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:33:50,786 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:34:05,719 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:34:05,831 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:34:05,845 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:34:05,845 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:34:22,371 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:34:25,492 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:34:25,511 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:34:25,539 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:34:45,272 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:34:45,273 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:34:45,277 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:34:46,569 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:34:46,583 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:34:46,655 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:35:08,479 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:35:10,283 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:35:10,353 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:35:10,409 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:35:30,725 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:35:30,751 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:35:30,784 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+WARNING 2020-12-04 20:36:51,794 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-04 20:36:56,027 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:36:56,133 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:36:56,150 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:36:56,159 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:37:44,281 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:37:58,604 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:37:58,689 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:37:58,696 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:37:58,696 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:40:03,429 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:40:05,776 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:40:05,793 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:40:05,794 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:40:21,981 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:40:21,983 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:40:21,991 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:42:19,598 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:42:22,126 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:42:22,131 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:42:22,136 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:43:43,610 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:43:43,640 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:00,398 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:00,437 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:21,794 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:21,823 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:25,169 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:25,182 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:44:25,214 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:44:32,871 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:32,878 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:44:32,887 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:44:45,311 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:44:45,379 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:45,379 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:44:45,393 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:44:48,298 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:44:48,309 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:44:48,317 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:46:15,701 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:46:15,936 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:47:39,214 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:47:39,214 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:47:39,222 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+ERROR 2020-12-04 20:47:39,232 basehttp 124 "GET /api/foot/ HTTP/1.1" 500 59
+ERROR 2020-12-04 20:47:39,233 basehttp 124 "GET /api/banner/ HTTP/1.1" 500 59
+ERROR 2020-12-04 20:47:39,238 basehttp 124 "GET /api/hdr/ HTTP/1.1" 500 59
+INFO 2020-12-04 20:47:39,569 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:47:39,572 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:47:39,584 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:47:44,006 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:47:44,042 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:47:44,070 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:50:18,816 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:50:21,308 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:50:21,320 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:50:21,328 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:50:23,469 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:50:23,472 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:50:23,485 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:50:35,440 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-04 20:50:35,660 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:50:35,723 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:50:35,723 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:50:35,740 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:50:45,291 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:50:45,299 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:50:45,321 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:51:30,559 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:51:34,389 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:51:34,397 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:51:34,407 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:51:42,625 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:51:42,705 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:51:42,706 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:51:42,718 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:52:10,106 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+ERROR 2020-12-04 20:52:10,108 basehttp 124 "GET /api/hdr/ HTTP/1.1" 500 59
+INFO 2020-12-04 20:52:10,793 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:52:10,797 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:52:10,798 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:52:23,116 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:52:23,197 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 20:52:23,206 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:52:23,207 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:54:07,998 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 20:54:08,052 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 20:54:08,063 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 20:54:08,063 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:03:38,580 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:03:38,588 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:03:38,592 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:03:51,999 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:03:52,007 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:03:52,016 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:04:07,784 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:04:07,791 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:04:07,792 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:04:40,200 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:04:40,208 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:04:40,219 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:04:55,790 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:04:55,802 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:04:55,808 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:05:02,981 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:05:03,049 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:05:03,082 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:05:27,220 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:05:27,226 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:05:27,238 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:05:28,376 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:05:28,385 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:05:28,390 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:05:49,980 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:05:49,983 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:05:50,000 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:06:04,682 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:06:04,685 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:06:04,701 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:06:11,807 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:06:11,830 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:06:11,843 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:06:19,809 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:06:19,832 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:06:19,847 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:06:28,429 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:06:28,429 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:06:28,441 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:07:01,285 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:07:01,303 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:07:01,318 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:07:48,864 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:07:48,871 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:07:48,878 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:27:14,431 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 21:27:14,538 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:27:14,566 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:27:14,577 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:27:14,613 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 21:27:14,620 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 21:27:14,620 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-04 21:28:42,276 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 21:28:42,397 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:28:42,424 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:28:42,435 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:35:44,241 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 21:35:44,391 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:35:44,404 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:35:44,428 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:35:54,097 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 21:35:54,196 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:35:54,215 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:35:54,228 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:41:49,402 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:41:49,439 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:41:49,445 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-04 21:42:05,107 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-04 21:42:05,193 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-04 21:42:05,206 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-04 21:42:05,215 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 10:40:33,301 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 10:40:33,308 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 10:40:33,316 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 10:40:33,421 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 10:40:33,438 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 10:40:33,452 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 10:40:45,720 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-05 10:40:45,909 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 10:40:45,996 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 10:40:46,005 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 10:40:46,005 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 10:40:52,180 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 10:40:52,183 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 10:40:52,184 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 10:40:54,094 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 10:40:54,094 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 10:40:54,107 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 10:41:44,493 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 10:41:44,494 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 10:41:44,506 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 10:41:46,452 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 10:41:46,497 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 10:41:46,527 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:16:11,791 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 11:16:11,871 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:16:11,883 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:16:11,909 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:17:16,667 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:17:16,702 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:17:16,727 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:17:38,932 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:17:38,943 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:17:38,958 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:17:52,720 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:17:52,720 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:17:52,721 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:18:10,801 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:18:10,802 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:18:10,817 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:20:32,578 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:20:32,589 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:20:32,592 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:21:04,871 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:21:04,892 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:21:04,923 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:21:18,920 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:21:18,925 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:21:18,935 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:21:55,524 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:21:55,536 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:21:55,565 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:40:10,203 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 11:40:10,266 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:40:10,273 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 11:40:10,273 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:40:18,250 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 11:40:18,264 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 11:40:18,272 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 13:42:50,486 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 13:42:50,487 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 13:42:50,487 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 13:44:44,121 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 13:44:44,123 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 13:44:44,137 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:11:24,742 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:11:24,742 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:11:24,755 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:17:49,201 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:17:49,218 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:17:49,233 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:20:26,112 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:20:26,143 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:20:26,151 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:20:59,860 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:20:59,866 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:20:59,874 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+WARNING 2020-12-05 14:21:38,216 base 93 Not Found: /login/captcha/
+WARNING 2020-12-05 14:21:38,220 basehttp 124 "GET /login/captcha/?username=guoxiaolin HTTP/1.1" 404 2338
+WARNING 2020-12-05 14:22:29,478 base 93 Not Found: /
+WARNING 2020-12-05 14:22:29,479 basehttp 124 "GET / HTTP/1.1" 404 2258
+WARNING 2020-12-05 14:22:29,705 base 93 Not Found: /favicon.ico
+WARNING 2020-12-05 14:22:29,706 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2309
+INFO 2020-12-05 14:23:50,714 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:23:50,729 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:23:50,738 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:25:17,190 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:25:17,192 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:25:17,199 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:25:37,077 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 105
+INFO 2020-12-05 14:28:01,776 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 105
+INFO 2020-12-05 14:30:04,391 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:30:19,078 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:31:16,768 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:32:16,502 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:32:22,894 basehttp 124 "OPTIONS /apiv2/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-05 14:32:22,985 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 14:32:48,046 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:32:53,643 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 14:32:53,653 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-05 14:32:53,978 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 14:32:54,090 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:32:54,121 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:32:54,149 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:50:00,730 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:50:06,784 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 14:50:07,002 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 14:50:07,076 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:50:07,083 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:50:07,087 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:50:17,082 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:50:17,090 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:50:17,091 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:50:17,226 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 14:50:17,241 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 14:50:17,252 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 14:50:33,416 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:50:33,430 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:50:33,441 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:50:50,891 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:50:55,802 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 14:50:56,028 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 14:50:56,100 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:50:56,102 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:50:56,123 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:51:02,678 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:51:02,686 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:51:02,695 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:57:54,798 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:58:02,157 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 14:58:02,461 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 14:58:02,541 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:58:02,547 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:58:02,559 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:58:07,097 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 14:58:12,209 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 14:58:12,483 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 14:58:12,573 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:58:12,574 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:58:12,583 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:58:16,115 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:58:16,129 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:58:16,130 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 14:58:17,037 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 14:58:17,042 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 14:58:17,046 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 15:20:38,561 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 15:20:45,566 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+WARNING 2020-12-05 15:20:45,738 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 67
+INFO 2020-12-05 15:21:00,069 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 15:21:05,389 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 15:21:05,661 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 15:21:05,733 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 15:21:05,741 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 15:21:05,741 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:24:55,591 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 17:24:55,591 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 17:24:55,598 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:25:06,263 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:25:06,273 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 17:25:06,273 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 17:25:15,859 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 17:25:15,865 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:25:15,881 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 17:25:50,245 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 17:25:56,999 basehttp 124 "OPTIONS /apiv2/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-05 17:25:57,087 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 17:25:57,096 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-05 17:25:57,352 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 17:25:57,419 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 17:25:57,428 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:25:57,429 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 17:26:46,996 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 17:26:52,383 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 17:26:52,677 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 17:26:52,735 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 17:26:52,735 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:26:52,741 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 17:36:24,679 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 17:36:29,744 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 17:36:29,960 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 17:36:30,030 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 17:36:30,030 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:36:30,033 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 17:37:22,152 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 17:37:27,514 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 17:37:27,746 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 17:37:27,803 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 17:37:27,814 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 17:37:27,818 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 18:23:27,518 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 18:36:48,985 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 18:36:49,217 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 18:36:49,311 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 18:36:49,318 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 18:36:49,322 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 18:38:03,827 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 18:38:03,836 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 18:38:03,837 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 18:38:06,537 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 18:38:06,537 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 18:38:06,545 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 18:38:27,106 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 18:38:27,138 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 18:38:27,149 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 18:38:43,747 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 18:38:43,750 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 18:38:43,758 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 18:38:47,554 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 18:38:53,852 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 18:38:54,093 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 18:38:54,157 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 18:38:54,164 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 18:38:54,174 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 18:38:56,814 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 18:39:12,581 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 18:39:12,835 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 18:39:12,884 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 18:39:12,897 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 18:39:12,904 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 19:45:50,024 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 19:45:50,026 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 19:45:50,030 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 19:45:50,119 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 19:45:50,119 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 19:45:50,120 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-05 20:02:13,483 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:02:13,496 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:02:13,509 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:03:09,069 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:03:09,118 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:03:09,127 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:03:19,480 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:03:19,528 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:03:19,567 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:03:54,757 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:03:54,771 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:03:54,775 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:04:12,711 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:04:12,719 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:04:12,727 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:04:14,498 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:04:14,503 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:04:14,511 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:06:29,936 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:06:30,122 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:06:32,145 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:06:32,165 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:06:32,189 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:06:35,962 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:06:35,981 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:06:36,010 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:07:02,618 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:07:02,627 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:07:02,639 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:37:51,851 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:37:51,852 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:37:51,852 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:39:01,888 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:39:01,902 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:39:01,913 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:44:02,849 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:44:02,855 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:44:02,861 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:44:30,333 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:44:30,338 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:44:30,341 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:44:38,866 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:44:38,871 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:44:38,881 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:44:43,983 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:44:43,992 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:44:44,005 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:45:49,736 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:45:51,827 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:45:51,831 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:45:51,837 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:46:55,279 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:46:56,162 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:46:56,170 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:46:56,180 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:47:12,499 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:47:12,516 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:47:12,561 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:47:14,150 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:47:14,161 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:47:14,165 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:48:06,197 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:48:06,563 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:49:06,769 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:49:08,990 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:49:09,002 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:49:09,011 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:49:37,179 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:49:37,206 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:49:37,238 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:49:46,803 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 20:49:53,096 basehttp 124 "OPTIONS /apiv2/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-05 20:49:53,207 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 20:49:53,216 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-05 20:49:53,519 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 20:49:53,599 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:49:53,630 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:49:53,646 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:50:31,196 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:50:31,253 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:50:31,301 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:50:32,509 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:50:32,526 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:50:32,535 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:51:31,654 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:51:31,663 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:51:31,664 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:51:49,421 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:51:49,429 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:51:49,438 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:51:50,320 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:51:50,335 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:51:50,368 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:52:37,313 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:52:37,318 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:52:37,333 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:53:22,440 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:53:22,461 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:53:22,493 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:53:25,643 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:53:25,650 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:53:25,661 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:53:58,784 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:53:58,815 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:53:58,854 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:55:56,219 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:55:56,247 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:55:56,262 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:57:19,323 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:57:19,342 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:57:19,362 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:57:45,586 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:57:45,605 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:57:45,620 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:58:37,643 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:58:37,665 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:58:37,686 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 20:59:08,071 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 20:59:08,089 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 20:59:08,098 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:01:26,492 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:01:26,493 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:01:26,497 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:01:28,868 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:01:28,898 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:01:28,899 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:01:40,751 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:01:40,755 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:01:40,762 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:01:56,739 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:01:56,761 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:01:56,774 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:02:18,807 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:02:18,829 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:02:18,890 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:02:34,828 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:02:34,850 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:02:34,885 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:02:50,009 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:02:50,029 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:02:50,064 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:02:57,213 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:02:57,268 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:02:57,278 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:03:12,812 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:03:12,856 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:03:12,879 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:03:22,858 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:03:22,888 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:03:22,936 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:03:31,194 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:03:31,229 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:03:31,258 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:03:47,367 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:03:47,388 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:03:47,403 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:04:16,093 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 21:04:23,833 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 21:04:24,161 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 21:04:24,244 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:04:24,271 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:04:24,277 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:04:56,026 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:04:56,038 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:04:56,043 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:05:25,792 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:05:25,792 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:05:25,796 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:05:36,472 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:05:36,484 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:05:36,485 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:05:53,008 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:05:53,016 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:05:53,024 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:06:19,680 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 21:06:20,257 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-05 21:06:25,399 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-05 21:06:25,883 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-05 21:06:25,967 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:06:25,992 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:06:26,039 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:06:32,852 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:06:32,856 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:06:32,860 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-05 21:06:46,528 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-05 21:06:46,538 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-05 21:06:46,540 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:16:09,483 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:16:09,491 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:16:09,492 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-06 09:16:09,677 basehttp 124 "GET /media/banner/t010e7db80af237bb71_UtE0uym.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 09:16:09,701 basehttp 124 "GET /media/banner/4xzr7l_qgrF6Ub.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 09:16:09,730 basehttp 124 "GET /media/banner/0wyek6_85aeWdy.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 09:16:49,785 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:16:49,790 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-06 09:16:49,795 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:20:30,971 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:20:31,079 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-06 09:20:31,101 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:25:50,088 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:25:50,094 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-06 09:25:50,106 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:28:57,891 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:28:57,898 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-06 09:28:57,901 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:29:06,779 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:29:06,825 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 297
+INFO 2020-12-06 09:29:06,835 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+WARNING 2020-12-06 09:30:51,504 base 93 Not Found: /
+WARNING 2020-12-06 09:30:51,506 basehttp 124 "GET / HTTP/1.1" 404 2258
+WARNING 2020-12-06 09:30:51,750 base 93 Not Found: /favicon.ico
+WARNING 2020-12-06 09:30:51,751 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2309
+INFO 2020-12-06 09:30:55,604 basehttp 124 "GET /admin/ HTTP/1.1" 200 4365
+INFO 2020-12-06 09:30:55,641 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,673 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,673 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,685 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,686 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,692 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,693 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,694 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,717 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,719 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,728 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,755 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,772 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,773 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,773 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,780 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:55,783 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 4372
+INFO 2020-12-06 09:30:55,981 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:57,762 basehttp 124 "POST /admin/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:30:59,348 basehttp 124 "GET /admin/ HTTP/1.1" 200 15535
+INFO 2020-12-06 09:30:59,400 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:59,405 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:59,410 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:30:59,415 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:03,892 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 30275
+INFO 2020-12-06 09:31:03,925 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:03,944 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:03,950 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:03,959 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:03,965 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:03,966 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:03,967 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:03,969 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:09,590 basehttp 124 "GET /admin/home/banner/2/update/ HTTP/1.1" 200 21065
+INFO 2020-12-06 09:31:09,636 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:09,652 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:09,653 basehttp 124 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:09,673 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-12-06 09:31:15,795 basehttp 124 "GET /admin/home/banner/2/delete/ HTTP/1.1" 200 15850
+INFO 2020-12-06 09:31:15,843 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:17,171 basehttp 124 "POST /admin/home/banner/2/delete/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:31:17,290 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 29934
+INFO 2020-12-06 09:31:17,341 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:19,228 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20572
+INFO 2020-12-06 09:31:19,278 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:43,886 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 200 20974
+INFO 2020-12-06 09:31:43,963 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:53,667 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:31:53,775 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 30576
+INFO 2020-12-06 09:31:53,846 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:31:55,751 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20572
+INFO 2020-12-06 09:31:55,795 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:32:07,382 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:32:07,499 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 31159
+INFO 2020-12-06 09:32:07,569 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:32:09,138 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20572
+INFO 2020-12-06 09:32:09,190 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:32:24,171 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:32:24,305 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20915
+INFO 2020-12-06 09:32:24,348 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:32:43,874 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 31442
+INFO 2020-12-06 09:32:43,931 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:32:49,628 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 203
+INFO 2020-12-06 09:32:49,629 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:32:49,630 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:33:10,154 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:33:10,163 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 203
+INFO 2020-12-06 09:33:10,167 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:33:54,003 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:33:54,013 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 203
+INFO 2020-12-06 09:33:54,032 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:34:19,896 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:34:19,896 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 203
+INFO 2020-12-06 09:34:19,907 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:35:33,851 basehttp 124 "GET /admin/home/banner/6/update/ HTTP/1.1" 200 21071
+INFO 2020-12-06 09:35:33,909 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:35:34,018 basehttp 124 "GET /media/banner/wallhaven-39xggv.jpg HTTP/1.1" 200 1486528
+INFO 2020-12-06 09:36:37,853 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 31442
+INFO 2020-12-06 09:36:42,396 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:36:42,412 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 203
+INFO 2020-12-06 09:36:42,432 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:38:06,694 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:38:06,709 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 203
+INFO 2020-12-06 09:38:06,729 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:38:47,030 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:38:47,068 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 553
+INFO 2020-12-06 09:38:47,111 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:38:47,246 basehttp 124 "GET /media/banner/wallhaven-39xggv.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 09:38:47,267 basehttp 124 "GET /media/banner/couple-sunset-proposal-silhouette-romance-scenery-seascape-landscape-41649-resized.jpeg HTTP/1.1" 200 41942
+INFO 2020-12-06 09:38:47,270 basehttp 124 "GET /media/banner/timg_1.jpg HTTP/1.1" 200 65168
+INFO 2020-12-06 09:44:44,903 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:44:44,924 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 2
+INFO 2020-12-06 09:44:44,930 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:44:59,226 basehttp 124 "GET /admin/ HTTP/1.1" 200 15535
+ERROR 2020-12-06 09:44:59,237 basehttp 124 "GET /admin/ HTTP/1.1" 500 59
+INFO 2020-12-06 09:44:59,283 basehttp 124 "GET /admin/ HTTP/1.1" 200 15535
+INFO 2020-12-06 09:44:59,368 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:45:01,977 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 25377
+INFO 2020-12-06 09:45:02,029 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:45:04,366 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20572
+INFO 2020-12-06 09:45:04,432 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:45:25,728 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:45:25,858 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20912
+INFO 2020-12-06 09:45:25,923 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:45:33,760 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:45:33,883 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20913
+INFO 2020-12-06 09:45:33,936 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:45:49,727 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:45:49,831 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 30582
+INFO 2020-12-06 09:45:49,904 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:45:51,129 basehttp 124 "GET /admin/home/banner/8/update/ HTTP/1.1" 200 21083
+ERROR 2020-12-06 09:45:51,132 basehttp 124 "GET /admin/home/banner/8/update/ HTTP/1.1" 500 59
+INFO 2020-12-06 09:45:51,266 basehttp 124 "GET /admin/home/banner/8/update/ HTTP/1.1" 200 21083
+INFO 2020-12-06 09:45:51,302 basehttp 124 "GET /media/banner/u1729393132194544201fm26gp0.jpg HTTP/1.1" 200 24062
+INFO 2020-12-06 09:45:51,323 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:45:59,337 basehttp 124 "POST /admin/home/banner/8/update/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:45:59,438 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 30521
+INFO 2020-12-06 09:45:59,510 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:46:01,108 basehttp 124 "GET /admin/home/banner/7/update/ HTTP/1.1" 200 21034
+INFO 2020-12-06 09:46:01,139 basehttp 124 "GET /media/banner/timg.jpg HTTP/1.1" 200 87901
+INFO 2020-12-06 09:46:01,151 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:46:09,601 basehttp 124 "POST /admin/home/banner/7/update/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:46:09,713 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 30521
+INFO 2020-12-06 09:46:09,794 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:46:14,643 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:46:14,660 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 317
+INFO 2020-12-06 09:46:14,686 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:46:14,813 basehttp 124 "GET /media/banner/u1729393132194544201fm26gp0_DaaEqmM.jpg HTTP/1.1" 200 24062
+INFO 2020-12-06 09:46:14,816 basehttp 124 "GET /media/banner/timg_X0S0ui7.jpg HTTP/1.1" 200 87901
+INFO 2020-12-06 09:46:14,818 basehttp 124 "GET /media/banner/u27061405623632776767fm26gp0.jpg HTTP/1.1" 200 38766
+INFO 2020-12-06 09:47:46,506 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 25377
+INFO 2020-12-06 09:47:46,542 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:47:48,775 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20572
+INFO 2020-12-06 09:47:48,826 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:48:45,031 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:48:45,149 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20916
+INFO 2020-12-06 09:48:45,200 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:48:54,682 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:48:54,838 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20916
+INFO 2020-12-06 09:48:54,906 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:49:16,397 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:49:16,517 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20911
+INFO 2020-12-06 09:49:16,580 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:49:29,504 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:49:29,618 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20913
+INFO 2020-12-06 09:49:29,683 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:49:43,858 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:49:43,966 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20916
+INFO 2020-12-06 09:49:44,040 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:50:01,489 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:50:01,610 basehttp 124 "GET /admin/home/banner/add/ HTTP/1.1" 200 20916
+INFO 2020-12-06 09:50:01,675 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:50:10,438 basehttp 124 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:50:10,560 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 32944
+INFO 2020-12-06 09:50:10,624 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:50:23,390 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:50:23,402 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 648
+INFO 2020-12-06 09:50:23,408 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:50:23,503 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 200 17189
+INFO 2020-12-06 09:50:23,517 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 200 121929
+INFO 2020-12-06 09:50:23,578 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 200 999263
+INFO 2020-12-06 09:50:23,783 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 200 3563418
+INFO 2020-12-06 09:50:24,297 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 200 9862945
+INFO 2020-12-06 09:50:24,338 basehttp 124 "GET /media/banner/zx5rzo_7VYw8ud.png HTTP/1.1" 200 9862945
+INFO 2020-12-06 09:50:24,360 basehttp 124 "GET /media/banner/zx5rzo_pHzKE9c.png HTTP/1.1" 200 9862945
+INFO 2020-12-06 09:51:27,132 basehttp 124 "GET /admin/home/banner/13/update/ HTTP/1.1" 200 21069
+INFO 2020-12-06 09:51:27,186 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:51:27,211 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:29,595 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 32637
+INFO 2020-12-06 09:51:31,448 basehttp 124 "GET /admin/home/banner/11/update/ HTTP/1.1" 200 21060
+INFO 2020-12-06 09:51:31,483 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:31,494 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:51:33,449 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 32637
+INFO 2020-12-06 09:51:34,652 basehttp 124 "GET /admin/home/banner/15/update/ HTTP/1.1" 200 21077
+INFO 2020-12-06 09:51:34,688 basehttp 124 "GET /media/banner/zx5rzo_7VYw8ud.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:34,703 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:51:36,655 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 32637
+INFO 2020-12-06 09:51:37,769 basehttp 124 "GET /admin/home/banner/16/update/ HTTP/1.1" 200 21077
+INFO 2020-12-06 09:51:37,806 basehttp 124 "GET /media/banner/zx5rzo_pHzKE9c.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:37,813 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:51:39,556 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 32637
+INFO 2020-12-06 09:51:40,917 basehttp 124 "GET /admin/home/banner/14/update/ HTTP/1.1" 200 21061
+INFO 2020-12-06 09:51:40,956 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:40,978 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:51:42,543 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 32637
+INFO 2020-12-06 09:51:46,709 basehttp 124 "POST /admin/home/banner/ HTTP/1.1" 200 15969
+INFO 2020-12-06 09:51:46,754 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:51:47,550 basehttp 124 "POST /admin/home/banner/ HTTP/1.1" 302 0
+INFO 2020-12-06 09:51:47,665 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 31687
+INFO 2020-12-06 09:51:47,710 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 09:51:53,226 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:51:53,238 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 09:51:53,241 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:51:53,322 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:53,324 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:53,333 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:53,337 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:51:53,338 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:57:37,752 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 09:57:37,753 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:57:37,754 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:57:37,774 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 200 17189
+INFO 2020-12-06 09:57:37,782 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 200 121929
+INFO 2020-12-06 09:57:37,816 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 200 999263
+INFO 2020-12-06 09:57:37,865 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 200 3563418
+INFO 2020-12-06 09:57:38,056 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 200 9862945
+INFO 2020-12-06 09:57:56,286 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:57:56,300 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 09:57:56,306 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:58:21,488 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:58:21,508 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 09:58:21,534 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:58:36,617 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:58:36,669 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 09:58:36,709 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:58:36,745 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:58:36,773 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 09:58:36,785 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:58:36,785 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:58:36,829 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 09:59:06,767 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 09:59:06,780 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 09:59:06,789 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:00:42,745 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:00:42,774 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:00:42,787 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+ERROR 2020-12-06 10:00:42,790 basehttp 124 "GET /api/foot/ HTTP/1.1" 500 59
+INFO 2020-12-06 10:00:43,934 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:00:43,961 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:00:43,998 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:00:44,100 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:00:44,117 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 10:00:44,128 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:00:44,128 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:00:44,139 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:01:47,709 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:01:47,716 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:01:47,722 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:05:13,843 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:05:13,918 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:05:13,946 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:05:14,026 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:05:14,057 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 10:05:14,088 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:05:14,141 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:05:14,156 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:05:50,427 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:05:50,430 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:05:50,433 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:06:07,520 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:06:07,558 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:06:07,597 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:08:57,268 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:08:57,290 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:08:57,321 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:08:57,396 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:08:57,407 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 10:08:57,415 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:08:57,424 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:08:57,424 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:09:10,877 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:09:10,976 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:09:10,988 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:09:34,793 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:09:34,814 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:09:34,839 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:15:27,783 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:15:27,797 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:15:27,809 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:15:27,840 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:15:27,849 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 10:15:27,855 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:15:27,857 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:15:27,860 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:15:32,045 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:15:32,060 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:15:32,073 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:16:28,608 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:16:28,617 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:16:28,631 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:20:34,740 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:20:34,773 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:20:34,803 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:20:34,889 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:20:34,919 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 10:20:34,950 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:20:34,951 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:20:34,967 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 10:21:34,490 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:21:34,490 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:21:34,496 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:21:35,471 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:21:35,506 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:21:35,543 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:21:53,412 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 10:21:53,425 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 10:21:53,439 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 10:22:16,815 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 10:22:24,280 basehttp 124 "OPTIONS /apiv2/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-06 10:22:24,470 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 10:22:24,477 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+WARNING 2020-12-06 10:22:24,487 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 400 41
+INFO 2020-12-06 11:54:08,480 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:54:08,494 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:54:08,588 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:54:08,686 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 11:54:08,687 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 11:54:08,689 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 11:54:08,692 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 11:54:08,726 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 11:54:19,708 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 11:54:26,370 basehttp 124 "OPTIONS /apiv2/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-06 11:54:26,521 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 11:54:26,527 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-06 11:54:26,832 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 11:54:26,917 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:54:26,920 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:54:26,933 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:54:36,491 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:54:36,500 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:54:36,501 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:54:46,991 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:54:47,002 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:54:47,009 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:55:45,408 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:55:45,409 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:55:45,430 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:56:00,404 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:56:00,412 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:56:00,415 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:58:36,789 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 11:58:43,598 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 11:58:43,819 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 11:58:43,879 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:58:43,890 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:58:43,893 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:58:50,986 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 11:58:56,700 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 11:58:56,954 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 11:58:57,015 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:58:57,022 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:58:57,033 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 11:59:10,522 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 11:59:10,532 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 11:59:10,537 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 13:27:28,452 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 13:27:28,454 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 456
+INFO 2020-12-06 13:27:28,458 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 13:27:28,490 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 13:27:28,506 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 13:27:28,512 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 13:27:28,520 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 13:27:28,525 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+WARNING 2020-12-06 14:46:38,187 base 93 Not Found: /
+WARNING 2020-12-06 14:46:38,199 basehttp 124 "GET / HTTP/1.1" 404 2258
+WARNING 2020-12-06 14:46:38,389 base 93 Not Found: /favicon.ico
+WARNING 2020-12-06 14:46:38,390 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2309
+INFO 2020-12-06 14:46:40,815 basehttp 124 "GET /admin/ HTTP/1.1" 200 15535
+INFO 2020-12-06 14:46:40,908 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 14:46:45,176 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 31459
+INFO 2020-12-06 14:46:45,242 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 14:46:48,482 basehttp 124 "GET /admin/home/banner/14/update/ HTTP/1.1" 200 21061
+INFO 2020-12-06 14:46:48,536 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 14:46:48,540 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 14:46:59,731 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 31459
+INFO 2020-12-06 14:47:02,370 basehttp 124 "GET /admin/home/banner/10/update/ HTTP/1.1" 200 21059
+INFO 2020-12-06 14:47:02,424 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 14:47:02,428 basehttp 124 "GET /admin/jsi18n/ HTTP/1.1" 200 3333
+INFO 2020-12-06 14:47:05,293 basehttp 124 "GET /admin/home/banner/ HTTP/1.1" 200 31459
+INFO 2020-12-06 14:52:50,376 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 14:52:56,926 basehttp 124 "OPTIONS /apiv2/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-06 14:52:57,088 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 14:52:57,094 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-06 14:52:57,315 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 14:52:57,381 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 14:52:57,381 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 14:52:57,385 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 14:56:27,889 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 14:56:33,212 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 14:56:33,460 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 14:56:33,527 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 14:56:33,536 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 14:56:33,540 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 14:56:49,463 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 14:56:55,219 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 14:56:55,455 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 14:56:55,547 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 14:56:55,548 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 14:56:55,551 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 14:59:30,297 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 14:59:35,792 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 14:59:36,010 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 14:59:36,086 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 14:59:36,086 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 14:59:36,087 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:00:10,561 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:00:10,571 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:00:10,575 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:00:10,687 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 15:00:10,693 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 15:00:10,700 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 15:18:44,093 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:18:44,113 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:18:44,114 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:18:54,992 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 15:19:00,949 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 15:19:01,218 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 15:19:01,283 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:19:01,289 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:19:01,304 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:19:01,337 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 15:19:01,345 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+WARNING 2020-12-06 15:19:49,525 basehttp 124 "GET /apiv2/captcha/?username=guoxioalin HTTP/1.1" 400 32
+WARNING 2020-12-06 15:20:00,720 basehttp 124 "GET /apiv2/captcha/?username=guoxioalin HTTP/1.1" 400 32
+INFO 2020-12-06 15:20:15,563 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 15:20:22,230 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 15:20:22,676 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 15:20:23,148 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:20:23,175 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:20:23,209 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:21:37,583 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:21:37,646 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:21:37,653 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:21:37,818 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:21:37,856 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:21:37,861 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:21:40,165 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:21:40,238 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:21:40,241 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:24:25,827 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:24:25,849 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:24:25,860 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:25:34,733 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:25:34,738 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 15:25:34,749 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:28:42,023 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 15:28:48,525 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 15:28:48,765 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 15:28:48,845 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 15:28:48,864 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 15:28:48,881 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+WARNING 2020-12-06 15:31:11,278 basehttp 124 "GET /apiv2/captcha/?username= HTTP/1.1" 400 32
+WARNING 2020-12-06 15:31:14,541 basehttp 124 "GET /apiv2/captcha/?username= HTTP/1.1" 400 32
+WARNING 2020-12-06 15:31:16,008 basehttp 124 "GET /apiv2/captcha/?username= HTTP/1.1" 400 32
+WARNING 2020-12-06 15:31:16,810 basehttp 124 "GET /apiv2/captcha/?username= HTTP/1.1" 400 32
+WARNING 2020-12-06 15:31:17,296 basehttp 124 "GET /apiv2/captcha/?username= HTTP/1.1" 400 32
+WARNING 2020-12-06 15:31:17,814 basehttp 124 "GET /apiv2/captcha/?username= HTTP/1.1" 400 32
+WARNING 2020-12-06 15:31:18,622 basehttp 124 "GET /apiv2/captcha/?username= HTTP/1.1" 400 32
+INFO 2020-12-06 15:31:27,962 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 15:31:38,918 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 15:31:39,169 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+WARNING 2020-12-06 20:08:24,106 basehttp 124 "GET /apiv2/captcha/?username=admin HTTP/1.1" 400 32
+INFO 2020-12-06 20:08:36,493 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 20:08:42,199 basehttp 124 "OPTIONS /apiv2/captcha/ HTTP/1.1" 200 0
+INFO 2020-12-06 20:08:42,311 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 20:08:42,317 basehttp 124 "OPTIONS /apiv2/login/ HTTP/1.1" 200 0
+INFO 2020-12-06 20:08:42,611 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 20:08:42,704 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 20:08:42,706 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 20:08:42,718 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 20:08:42,746 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 20:08:42,762 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 20:08:42,769 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 20:08:42,770 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 20:08:42,770 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 20:15:41,101 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 20:15:46,467 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 20:15:46,701 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 20:15:46,792 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 20:15:46,805 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 20:15:46,806 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 20:15:50,165 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 20:15:55,629 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 20:15:55,934 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 20:15:56,010 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 20:15:56,013 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 20:15:56,015 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 20:52:10,061 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 20:52:15,937 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 20:52:16,254 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 20:52:16,324 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 20:52:16,341 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 20:52:16,356 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 20:57:27,411 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 20:57:33,091 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 20:57:33,321 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 20:57:33,402 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 20:57:33,408 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 20:57:33,425 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 20:59:05,521 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 20:59:05,524 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 20:59:05,534 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:12:55,119 basehttp 124 "GET /apiv2/captcha/?username=guoxiaolin HTTP/1.1" 200 140
+INFO 2020-12-06 21:13:01,536 basehttp 124 "POST /apiv2/captcha/ HTTP/1.1" 200 20
+INFO 2020-12-06 21:13:01,779 basehttp 124 "POST /apiv2/login/ HTTP/1.1" 200 215
+INFO 2020-12-06 21:13:01,900 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:13:01,909 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:13:01,931 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:13:01,977 basehttp 124 "GET /media/banner/n6kwmq.png HTTP/1.1" 304 0
+INFO 2020-12-06 21:13:01,995 basehttp 124 "GET /media/banner/neywmk.jpg HTTP/1.1" 304 0
+INFO 2020-12-06 21:13:02,000 basehttp 124 "GET /media/banner/wallhaven-lmleyq.png HTTP/1.1" 304 0
+INFO 2020-12-06 21:13:02,021 basehttp 124 "GET /media/banner/wallhaven-ne1ekw.png HTTP/1.1" 304 0
+INFO 2020-12-06 21:13:02,024 basehttp 124 "GET /media/banner/zx5rzo.png HTTP/1.1" 304 0
+INFO 2020-12-06 21:13:19,963 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:13:19,997 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:13:20,046 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:14:10,016 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:14:10,057 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:14:10,083 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:14:23,092 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:14:23,103 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:14:23,113 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:15:09,654 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:15:09,702 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:15:09,760 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:15:22,379 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:15:22,426 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:15:22,479 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:15:31,365 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:15:31,409 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:15:31,414 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:15:55,474 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:15:55,501 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:15:55,520 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:17:51,755 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:17:51,775 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:17:51,805 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:18:01,117 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:18:01,142 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:18:01,160 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287
+INFO 2020-12-06 21:18:08,411 basehttp 124 "GET /api/hdr/ HTTP/1.1" 200 275
+INFO 2020-12-06 21:18:08,450 basehttp 124 "GET /api/banner/ HTTP/1.1" 200 454
+INFO 2020-12-06 21:18:08,487 basehttp 124 "GET /api/foot/ HTTP/1.1" 200 287

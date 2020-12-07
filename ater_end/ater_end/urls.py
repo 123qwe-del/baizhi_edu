@@ -23,5 +23,6 @@ xversion.register_models()
 urlpatterns = [
     path('admin/', xadmin.site.urls),
     path('api/',include('home.urls')),
+    path('apiv2/',include('login.urls')),
     re_path('media/(?P<path>.*)$',serve, {'document_root': settings.MEDIA_ROOT})
 ]
