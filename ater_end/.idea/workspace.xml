@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/ater_end/settings/constants.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -70,7 +70,7 @@
         <entry file="file://$USER_HOME$/Desktop/中期项目/code/edu_api/edu_api/apps/user/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="79" column="38" lean-forward="true" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="38" />
+              <caret line="79" column="38" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="38" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -420,7 +420,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32890856" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3879056" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.3879056" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.38643068" />
       <window_info active="true" content_ui="combo" x="626" y="180" width="283" height="464" id="Project" order="0" sideWeight="0.17582418" visible="true" weight="0.18632708" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -830,14 +830,14 @@
     <entry file="file://$PROJECT_DIR$/ater_end/settings/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/中期项目/code/edu_api/edu_api/apps/user/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="79" column="38" lean-forward="true" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="38" />
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="38" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
