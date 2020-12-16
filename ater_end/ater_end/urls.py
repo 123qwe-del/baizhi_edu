@@ -14,15 +14,22 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf import settings
-from django.urls import path, re_path,include
+from django.urls import path, re_path, include
 from django.views.static import serve
 import xadmin
 from xadmin.plugins import xversion
+
 xversion.register_models()
 
 urlpatterns = [
     path('admin/', xadmin.site.urls),
-    path('api/',include('home.urls')),
-    path('apiv2/',include('login.urls')),
-    re_path('media/(?P<path>.*)$',serve, {'document_root': settings.MEDIA_ROOT})
+    path('api/', include('home.urls')),
+    path('apiv2/', include('login.urls')),
+    path('apiv3/', include('course.urls')),
+    path('apiv4/', include('comment.urls')),
+    path('apiv5/', include('cart.urls')),
+    path('apiv6/', include('order.urls')),
+    path('apiv7/', include('payments.urls')),
+    re_path('media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    re_path(r'^ckeditor/', include('ckeditor_uploader.urls')),  # 文本编辑器
 ]

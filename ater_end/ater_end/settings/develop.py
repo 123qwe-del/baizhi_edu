@@ -42,9 +42,17 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
+    # 文本编辑器
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 富文本编辑器上传图片模块
+
     # app
-    'home',
-    'login',
+    'home',  # 主页面
+    'login',  # 登陆
+    'course',  # 课程
+    'comment',  # 评论
+    "order",  # 订单
+    "payments",  # 支付app
 ]
 
 MIDDLEWARE = [
@@ -114,15 +122,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'zh-cn'
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
@@ -201,7 +209,7 @@ AUTH_USER_MODEL = "login.UserModel"
 JWT_AUTH = {
 
     # 设置token的有效期
-    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300),
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300000000),
 
     # 设置jwt的返回数据类型
     'JWT_RESPONSE_PAYLOAD_HANDLER':
@@ -212,3 +220,47 @@ JWT_AUTH = {
 AUTHENTICATION_BACKENDS = [
     'login.service.UserAuthentication',
 ]
+
+# redis相关设置
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 购物车数据库
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+}
+
+CKEDITOR_UPLOAD_PATH = ''  # 使用fdfs分布系统
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 完整工具条
+        'height': 300,  # 编辑高度
+        'width': 1000
+    },
+}
+
+# 支付宝配置信息
+ALIAPY_CONFIG = {
+    # "gateway_url": "https://openapi.alipay.com/gateway.do?", # 真实支付宝网关地址
+    "gateway_url": "https://openapi.alipaydev.com/gateway.do?",  # 沙箱支付宝网关地址
+    "appid": "2021000116671489",
+    "app_notify_url": None,
+    "app_private_key_path": open(os.path.join(BASE_DIR, "apps/payments/keys/应用私钥2048.txt")).read(),
+    "alipay_public_key_path": open(os.path.join(BASE_DIR, "apps/payments/keys/支付宝公钥.txt")).read(),
+    "sign_type": "RSA2",
+    "debug": False,
+    # "return_url": "http://www.baizhistore.cn:8080/payments/result",  # 同步回调地址
+    "return_url": "http://localhost:8080/ordersuccess",  # 同步回调地址
+    "notify_url": "http://127.0.0.1:8000/apiv7/order_end/",  # 异步结果通知
+}
